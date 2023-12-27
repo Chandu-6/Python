@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <style>
+        body {
+            background-color: rgb(204, 204, 204);
+            width: 800px;
+            height: 1000px;
+            margin: auto;
+        }
+
+        page {
+            background: white;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 0.5 cm;
+            position: relative;
+        }
+
+        page[size="A4"] {
+            width: 800px;
+            height: 1050px;
+            /* margin: 10px; */
+        }
+
+        /* @page {
+            size: 21px 29.7px;
+            margin: 0mm;
+        } */
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 100%;
+        }
+
+        .leftpanel {
+            width: 29%;
+            background-color: gray;
+            padding: 26px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .rightpanel {
+            width: 71%;
+            padding: 30px;
+
+        }
+
+        .item {
+            padding-bottom: 25px;
+            padding-top: 25px;
+        }
+
+        .item h2 {
+            margin-top: 0px;
+        }
+
+        .bottomLineSeparator {
+            border-bottom: 0.05cm solid white;
+        }
+
+        h2 {
+            font-family: "Arial, Helvetica, sans-serif";
+        }
+
+        .leftpanel h2 {
+            color: black;
+        }
+
+        img {
+            border-radius: 50%;
+            width: 4cm;
+            height: 4cm;
+            margin-bottom: 0.7cm;
+            border: 0.15cm solid white;
+            object-fit: cover;
+            object-position: 50% 50%;
+        }
+
+        .details {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .border-bottom {
+            border-bottom: 2px solid black;
+        }
+
+        .education {
+            border-bottom: 2px solid black;
+        }
+
+        .academicproject {
+            border-bottom: 2px solid black;
+        }
+
+        .declaration {
+            border-bottom: 2px solid black;
+        }
+        .name{
+            border-bottom: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <page size="A4">
+        <div class="container">
+            <div class="leftpanel">
+                <img src="Images/Photo.jpg" alt="chandana">
+                <div class="details">
+                    <div class="item
+                bottomLineSeparator">
+                        <h2>CONTACT</h2>
+                        <i class="fa fa-phone">+91 6305148698</i>
+                        <i class="fa fa-envelope">chandanapotturu2002@gmail.com</i>
+                        <i class="fa fa-map-marker">Gudipadu(V),Yadiki(M),<br>&nbsp;&nbsp;&nbsp;Anantapur(D)-515 408</i>
+
+                    </div>
+                    <div class="item 
+                bottomLineSeparator">
+                        <h2>SKILLS</h2>
+                        <span>HTML,</span>
+                        <span>CSS,</span>
+                        <span>Bootstrap,</span>
+                        <span>Java script</span>
+                    </div>
+                    <div class="item
+                    bottomLineSeparator">
+                        <h2>HOBBIES/INTERESTS</h2>
+                        <ul>
+                            <li>Listening music</li><br>
+                            <li>Reading books</li><br>
+                            <li>Net browsing</li>
+                        </ul>
+                    </div>
+                    <div class="item
+                    bottomLineSeparator">
+                        <h2>STRENGTHS</h2>
+                        <UL>
+                            <LI>Quick learner</LI>
+                            <LI>Hard worker</LI>
+                        </UL>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="rightpanel">
+                <div>
+                    <div class="name">
+                        <h1>POTTURU CHANDANA</h1>
+                    </div>
+                    <div class="border-bottom">
+                        <h2>CAREER OBJECTIVE :</h2>
+                        <P>An enthusiastic electronics and communication engineering.With basic knowledge on Front end
+                            and
+                            good communication skills.I am glad to apply for this job.</P>
+                    </div>
+                </div>
+                <div class="education">
+
+                    <h2>EDUCATION :</h2>
+                    <p><b>Btech(ECE)</b></p>
+                    <p>Newtons institute of science and technology</p>
+                    <p>2019-2023</p>
+                    <p>70%</p>
+                    <p><B>INTERMEDIATE (MPC)</B></p>
+                    <P>Vivekananda Junior College</P>
+                    <p>2017-2019</p>
+                    <p>7.59</p>
+                    <p><b>SSC</b></p>
+                    <p>A.P Model School</p>
+                    <p>2016-2017</p>
+                    <p>8.2</p>
+
+                </div>
+                <div class="academicproject">
+                    <h2>ACADEMIC PROJECT :</h2>
+                    <P><B>TITTLE:</B>Automated toll collection system based on RFID</P>
+                    <P><b>DESCRIPTION:</b>RFID toll collection system is a solution of traffic problems and it resuces
+                        the pollution it saves timing consumption.</P>
+                </div>
+                <div class="declaration">
+                    <h2>DECLARATION :</h2>
+                    <p>"I certify that the information provided in this resume is true and accurate to the best of my
+                        knowledge."</p>
+                </div>
+            </div>
+        </div>
+    </page>
+    <!-- <page size="A4">
+
+    </page> -->
+</body>
+
+</html>
