@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            width: 200px;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+        #details {
+            display: none;
+            border: 1px solid #ccc;
+            padding: 10px;
+            width: 300px;
+        }
+
+        #details1 {
+            display: none;
+            border: 1px solid #ccc;
+            padding: 10px;
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Oraganization management</h1>
+    <h2>Oraganizations</h2>
+
+    <h2>Create organization</h2>
+    <form id="userForm">
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" name="Name" required>
+        <label for="Location">Location:</label>
+        <input type="text" id="Location" name="Location" required>
+        <label for="text">Industry:</label>
+        <input type="text" id="Industry" name="Industry" required>
+        <input type="submit" value="Submit">
+
+    </form>
+    <div id="details">
+        <h3>User Details:</h3>
+        <p><strong>Name:</strong> <span id="display-Name"></span></p>
+        <p><strong>Location:</strong> <span id="display-Location"></span></p>
+        <p><strong>Industry:</strong> <span id="display-Industry"></span></p>
+    </div>
+
+    <script>
+        document.getElementById('userForm').addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevent form submission
+
+            // Get form values
+            var Name = document.getElementById('Name').value;
+            var Location = document.getElementById('Location').value;
+            var Industry = document.getElementById('Industry').value;
+
+            // Display the details
+            document.getElementById('display-Name').textContent = Name;
+            document.getElementById('display-Location').textContent = Location;
+            document.getElementById('display-Industry').textContent = Industry;
+
+            // Show the details section
+            document.getElementById('details').style.display = 'block';
+        });
+       
+    </script>
+
+
+    <h2>Create Employee</h2>
+    <form id="userForm1">
+        <label for="Name">Name:</label>
+        <input type="text" id="Name">
+        <label for="Position">Position:</label>
+        <input type="text" id="Position">
+        <label for="Oraganization name">Oraganizationname:</label>
+        <input type="text" id="Oraganization name:">
+        <input type="submit" value="Submit">
+    </form>
+    <div id="details1">
+        <h3>User Details:</h3>
+        <p><strong>Name:</strong> <span id="display-Name"></span></p>
+        <p><strong>Position:</strong> <span id="display-Position"></span></p>
+        <p><strong>Organizationname:</strong> <span id="display-Organizationname"></span></p>
+    </div>
+    <script>
+        document.getElementById('userForm1').addEventListener('submit', function (event) {
+            event.preventDefault();
+            var Name = document.getElementById('Name').value;
+            var Position = document.getElementById('Position').value;
+            var Oraganizationname = document.getElementById('Organization name').value;
+            document.getElementById('display-Name').textContent = Name;
+            document.getElementById('display-Position').textContent = Position;
+            document.getElementById('display-Organizationname').textContent = Oraganizationname;
+            document.getElementById('details1').style.display = 'block';
+        })
+    </script>
+</body>
+
+</html>
