@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+footer{
+  background-color:lightslategray;
+  padding-top: 50px;
+  width: 100%;
+  height: auto;
+  position: fixed   ;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+}
+h3{
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin: 0 90px;
+    font-weight: 400px;
+    font-family: sans-serif;
+    
+}
+.footer-content{
+    width: -50px;
+}
+.footer-content p{
+    width: 190px;
+    margin: auto;
+    padding: 7px;
+    color: white;
+    font-size: 13px;
+
+}
+.footer-content ul{
+    text-align: center;
+}
+.list{
+    padding: 0;
+
+}
+.list li{
+    position: relative;
+    text-align: center;
+    width: auto;
+    padding: 7px;
+
+    
+}
+.list a{
+    color: white;
+    font-size: 13px;
+}
+/* .list li::after{
+    content: '';
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: orangered;
+    transition-duration: 0.5s;
+}
+.list li:hover::before{
+        width: 70px;
+} */
+/* .list li {
+    border-bottom: 3px solid orangered;
+    border-bottom: none;
+
+} */
+.list li:hover a{
+    border-bottom: 3px solid orangered;
+    /* width: 20px; */
+}
+ 
+.social-icons {
+    text-align: center;
+    padding: 0;
+
+}
+.social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 8px;
+    
+}
+.social-icons i{
+    color: white;
+    font-size: 25px;
+}
+/* a:hover{
+    color: orange;
+} */
+.social-icons i:hover{
+    color: orange;
+}
+.bottom{
+    text-align: center;
+    height: 20px;
+    padding-top: 10px;
+    background: grey;
+}
+.bottom p{
+    font-size: 16px;
+    font-family: sans-serif;
+}
