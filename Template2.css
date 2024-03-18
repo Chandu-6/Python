@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+}
+header{
+    width:100%;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+}
+.nav-list ul{
+       display: flex;
+       font-size: 20px;
+    
+}
+.nav-list ul a{
+    margin: 20px;
+    color: black;
+}
+.nav-list li:hover{
+    border-bottom:3px solid orangered;
+}
+.logo{
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: bolder;
+    cursor: pointer;
+    color:black;
+    margin: 0px 180px;
+    font-size: 30px;
+
+}
+.logo img{
+    width: 110px;
+}
+.yoga img{
+    width: 100%;
+    height: auto;
+}
+
+.social-icons{
+    padding-right: 50px;
+   
+}
+.social-icons i{
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+}
+.social-icons i:hover{
+    color:blue;
+}
+
+section{
+    padding-top:20px ;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding: 30px 20%;
+    background:rgb(250, 244, 241);
+    
+
+}
+.about-text h4{
+    font-size: 25px;
+    padding-bottom: 20px;
+    color: orangered;
+    
+}
+.about-text p{
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.icons i{
+   margin: 10px;
+   font-size: 30px;
+   
+}
+.icons i:hover{
+    color: orange;
+}
+.btn button{
+    width: 100px;
+    height: 30px;
+    background: orange;
+    font-size: 18px;
+    
+}
+.btn button:hover{
+    border: none;
+}
+.benfits{
+    text-align: center;
+    padding-top: 20px;
+}
+.benfits h3{
+    text-transform: capitalize;
+}
+span{
+    color: red;
+}
+.benfits h2{
+    text-transform: capitalize;
+    padding-top: 10px;
+   
+}
+.benfits p{
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.bottom-footer{
+    background: linear-gradient(rgb(165, 55, 101),rgb(20, 20, 20));
+    justify-content: space-between;
+    position: relative;
+    display: flex;
+}
+
+.bottom-footer i{
+    display: block;
+    margin: 15px;
+    font-weight: 20px;
+    color: white;
+}
+/* .bottom-footer i:hover{
+    border-bottom: 2px solid black;
+} */
+
+.footer-content{
+    padding: 50px;
+}
+.footer-content h3{
+    font-weight: 30px;
+    color: white;
+}
+.footer-content a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.bottom{
+    text-align: center;
+    background: gray;
+    position: relative;
+    height: 30px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
