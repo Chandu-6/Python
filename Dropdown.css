@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-list ul{
+    padding: 20px;
+}
+.nav-list ul li{
+    list-style: none;
+}
+.nav-list ul li{
+    display: inline;
+    margin: 20px;
+}
+.nav-list ul li ul{
+    display: none;
+}
+.nav-list ul li:hover{
+    color: blue;
+    background-color: lightgreen;
+
+}
+.nav-list ul li:hover ul{
+    display: grid;
+    position: fixed;
+    margin:0px 150px;
+    background-color: lightsalmon;
+    
+}
+.nav-list ul li:hover ul li{
+  color: black;
+}
+
