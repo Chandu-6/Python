@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Kalam", cursive;
+}
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.tittle h1{
+    padding: 40px;
+    color:orangered;
+    font-family: "Kalam", cursive;
+    font-size: 40px;
+/* }
+.nav-list ul{
+    padding: 50px;
+}
+.nav-list li{
+    display: inline;
+    padding: 30px;
+    font-family: "Kalam", cursive;
+    font-size: 20px;
+ }
+ .nav-list ul li ul{
+    display: none;
+ }
+ .nav-list ul li:hover{
+    color:blue;
+    cursor: pointer;
+    
+ }
+ .nav-list ul li:hover ul{
+    display: grid;
+    background-color:rgb(207, 198, 198);
+    position: fixed;
+    margin: 20px 200px;
+    /* width: 150px; */
+   
+    /* margin-top: 80px; */
+ /* }
+ .nav-list ul li:hover ul li{
+    color: black;
+    margin: -25px;
+ } */ 
+}
+.nav-list ul{
+    padding: 50px;
+}
+.nav-list ul li{
+    list-style: none;
+    font-size: 20px;
+}
+.nav-list ul li a{
+    color: black;
+}
+.nav-list ul li{
+    display: inline;
+    margin: 20px;
+}
+.nav-list ul li ul{
+    display: none;
+}
+.nav-list ul li:hover{
+    color: blue;
+}
+.nav-list ul li:hover a{
+    color: blue;
+}
+.nav-list ul li:hover ul{
+    display: grid;
+    position: fixed;
+    margin:0px 150px;
+    background-color: rgb(121, 131, 143);
+    width: 100px;
+    /* height: 50px; */
+    
+}
+.nav-list ul li:hover ul li{
+    align-items: end;
+    margin: -3px 0px;
+}
+.nav-list ul li:hover ul li a{
+  color: black;
+  
+}
+.menu{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgb(187, 226, 225);
+    padding-top: -50px;
+    height: 56px;
+}
+.menu ul{
+    padding: 10px;
+   
+}
+.menu ul li{
+    display: inline;
+    padding: 20px;  
+    font-size: 20px;
+    font-family: "Kalam", cursive;
+    
+}
+.menu ul li:hover{
+    border-bottom: 3px solid orangered;
+
+}
+
+.order{
+    font-size: 35px;
+    padding: 30px;
+    font-family: "Kalam", cursive;
+    padding: 20px 40px;
+    
+
+}
+.content-img{
+    display: flex;
+    justify-content: center;
+    padding: 30px;   
+}
+
+.images{
+    margin: 0px 20px;
+    width: 250px;
+    /* background-color: lightslategray; */
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgb(207, 236, 235);
+    text-align: center;  
+}
+.images img{
+    border-radius: 20px;
+}
+.images p{
+    font-size: 20px;
+}
+.images i{
+    color:goldenrod;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    padding: 100px;   
+    margin: -80px 0px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(rgb(223, 233, 223),rgb(156, 175, 224));
+}
+.footer-content{
+    padding: 30px;
+   
+   
+}
+.footer-content ul li{
+margin: 10px;
+}
+.footer-content a{
+    color: black;
+}
+.footer-content a:hover{
+    color: orangered;
+}
+.footer-content p{
+  margin: 10px;
+}
+.bottom{
+    background: grey;
+    text-align: center;
+}
